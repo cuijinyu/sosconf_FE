@@ -1,0 +1,30 @@
+.sosconf-footer__wrap {
+    color: white;
+    height: 100%;
+}
+
+.sosconf-footer__left-logo {
+    height: 40px;
+    width: 170px;
+    background: url(../Logo_full.svg);
+    float: left;
+}
+
+.sosconf-footer__left-logo {
+    float: left;
+    position: relative;
+    top: 50%;
+    left: 50px;
+    transform: translateY(-50%);
+    width: 200px;
+    height: 100px;
+    background-size: 200px 100px;
+}
+
+.sosconf-footer__copyleft {
+    float: right;
+    position: relative;
+    top: 50%;
+    right: 50px;
+    transform: translateY(-50%);
+}

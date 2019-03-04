@@ -1,25 +1,39 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { HashRouter, Route, Switch } from 'react-router-dom';
+
+// Components
+import Header from './components/header';
+import Footer from './components/footer';
+
+// Pages
+import Home from './pages/home';
+import Introduce from './pages/introduce';
+
+// Themes
+import './themes/common.css';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
+      <div className="sosconf-app">
+        <header className="sosconf-header">
+          <Header>
+            {/* header */}
+          </Header>
         </header>
+        <div className="sosconf-body">
+          <HashRouter>
+            <Switch>
+              <Route exact path="/" component={Home} />
+              <Route exact path="/introduce" component={Introduce} />
+            </Switch>
+          </HashRouter>
+        </div>
+        <footer className="sosconf-footer">
+          <Footer>
+            {/* Footer */}
+          </Footer>
+        </footer>
       </div>
     );
   }

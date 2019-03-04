@@ -1,0 +1,57 @@
+.sosconf-header__wrap {
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.sosconf-header__logo {
+    float: left;
+    width: 150px;
+    margin-left: 10px;
+    height: 100%;
+}
+
+.sosconf-header__logo--svg {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 20px;
+    width: 20px;
+    float: left;
+    background: url(../Logo_nano.svg);
+}
+
+.sosconf-header__logo--name {
+    position: relative;
+    top: 50%;
+    left: 10px;
+    float: left;
+    transform: translateY(-50%);
+}
+
+.sosconf-header__logo--name-number {
+    position: relative;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+    color: rgb(1, 191, 144);
+}
+
+.sosconf-header__buttons {
+    height: 100%;
+    width: 40%;
+    margin: 0 auto;
+}
+
+.sosconf-header__button {
+    border: none;
+    background: transparent;
+    height: 100%;
+    font-size: 14px;
+    width: 25%;
+}
+
+.sosconf-header__button:hover {
+    transition: all .2s;
+    border-bottom: 3px solid rgb(1, 191, 144);
+}

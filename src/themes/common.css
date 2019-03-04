@@ -1,0 +1,40 @@
+/* Common */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+#root {
+    height: 100%;
+}
+
+.sosconf-app {
+    height: 100%;
+    background: url(../Background.svg);
+    background-size: cover;
+}
+
+/* Header */
+.sosconf-header {
+    height: 5%;
+    background: rgb(213, 246, 240);
+}   
+
+/* Body */
+.sosconf-body {
+    height: 80%;
+}
+
+/* Footer */
+.sosconf-footer {
+    height: 15%;
+    background: rgb(7, 7, 22);
+}
