@@ -1,4 +1,4 @@
-@media screen and (min-width: 1050px) {
+/* @media screen and (min-width: 1050px) { */
     .sosconf-home__wrap {
         min-height: 800px;
     }
@@ -73,8 +73,12 @@
     .sosconf-home__announcement {
         height: 800px;
     }
-    
+
     .sosconf-home__news {
     
     }
-}
+
+
+/* } @media screen and (max-width: 1050px) { */
+
+/* } */

@@ -24,7 +24,9 @@ class Home extends Component {
             </div>
           </div>
           <div className="sosconf-home__news">
-
+            <div>
+              
+            </div>
           </div>
         </div>
 
