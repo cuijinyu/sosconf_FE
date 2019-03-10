@@ -12,9 +12,11 @@ class Header extends Component {
         </div>
         <div className="sosconf-header__buttons">
           <button className="sosconf-header__button">首页</button>
-          <button className="sosconf-header__button">年会介绍</button>
-          <button className="sosconf-header__button">提供赞助</button>
-          <button className="sosconf-header__button">联系方式</button>
+          <button className="sosconf-header__button">关于</button>
+          <button className="sosconf-header__button">赞助</button>
+          <button className="sosconf-header__button">议程</button>
+          <button className="sosconf-header__button">导航</button>
+          <button className="sosconf-header__button">联系</button>
         </div>
         <div className="sosconf-header__choose">
           

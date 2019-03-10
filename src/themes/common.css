@@ -31,11 +31,11 @@ body {
 
 /* Body */
 .sosconf-body {
-    height: 80%;
+    min-height: 800px;
 }
 
 /* Footer */
 .sosconf-footer {
-    height: 15%;
+    height: 180px;
     background: rgb(7, 7, 22);
 }
