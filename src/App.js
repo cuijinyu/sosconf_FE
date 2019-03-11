@@ -8,6 +8,7 @@ import Footer from './components/footer';
 // Pages
 import Home from './pages/home';
 import Introduce from './pages/introduce';
+import Sponsor from './pages/sponsor'
 
 // Themes
 import './themes/common.css';
@@ -26,6 +27,7 @@ class App extends Component {
             <Switch>
               <Route exact path="/" component={Home} />
               <Route exact path="/introduce" component={Introduce} />
+              <Route exact path="/sponsor" component={Sponsor} />
             </Switch>
           </HashRouter>
         </div>
