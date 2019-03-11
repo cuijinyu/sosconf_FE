@@ -1,124 +1,167 @@
-.sosconf-header__wrap {
-    height: 100%;
-    position: relative;
-    /* overflow: hidden; */
-}
+@media screen and (min-width: 1050px) {
+    .sosconf-header-mobile {
+        display: none;
+    }
 
-.sosconf-header__logo {
-    float: left;
-    width: 150px;
-    margin-left: 10px;
-    height: 100%;
-}
+    .sosconf-header__wrap {
+        height: 100%;
+        position: relative;
+        /* overflow: hidden; */
+    }
 
-.sosconf-header__logo--svg {
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-    height: 20px;
-    width: 20px;
-    float: left;
-    background: url(../images/Logo_nano.svg);
-}
+    .sosconf-header__logo {
+        float: left;
+        width: 150px;
+        margin-left: 10px;
+        height: 100%;
+    }
 
-.sosconf-header__logo--name {
-    position: relative;
-    top: 50%;
-    left: 10px;
-    float: left;
-    transform: translateY(-50%);
-}
+    .sosconf-header__logo--svg {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        height: 20px;
+        width: 20px;
+        float: left;
+        background: url(../images/Logo_nano.svg);
+    }
 
-.sosconf-header__logo--name-number {
-    position: relative;
-    top: 50%;
-    left: 15px;
-    transform: translateY(-50%);
-    color: rgb(1, 191, 144);
-}
+    .sosconf-header__logo--name {
+        position: relative;
+        top: 50%;
+        left: 10px;
+        float: left;
+        transform: translateY(-50%);
+    }
 
-.sosconf-header__buttons {
-    height: 100%;
-    width: 40%;
-    margin: 0 auto;
-}
+    .sosconf-header__logo--name-number {
+        position: relative;
+        top: 50%;
+        left: 15px;
+        transform: translateY(-50%);
+        color: rgb(1, 191, 144);
+    }
 
-.sosconf-header__button {
-    border: none;
-    background: transparent;
-    height: 100%;
-    font-size: 14px;
-    width: calc(100% / 6);
-}
+    .sosconf-header__buttons {
+        height: 100%;
+        width: 40%;
+        margin: 0 auto;
+    }
 
-.sosconf-header__button:hover {
-    transition: all .2s;
-    border-bottom: 3px solid rgb(1, 191, 144);
-}
+    .sosconf-header__button {
+        border: none;
+        background: transparent;
+        height: 100%;
+        font-size: 14px;
+        width: calc(100% / 6);
+    }
 
-.sosconf-header__button-group {
-    width: calc(100% / 6);
-    display: inline-block;
-    height: 100%;
-    /* box-sizing: border-box; */
-    overflow: visible;
-    position: relative;
-}
+    .sosconf-header__button:hover {
+        transition: all .2s;
+        border-bottom: 3px solid rgb(1, 191, 144);
+    }
 
-.sosconf-header__button-group:hover > .sosconf-header__gourp-drop-down {
-    display: inline;
-    background: white;
-    top: 100%;
-    left: -10%;
-    width: 100%;
-    height: auto;
-    border: none;
-    transition: all .5s;
-}
+    .sosconf-header__button-group {
+        width: calc(100% / 6);
+        display: inline-block;
+        height: 100%;
+        /* box-sizing: border-box; */
+        overflow: visible;
+        position: relative;
+    }
 
-.sosconf-header__button-group:hover .sosconf-header__group-button {
-    height: 40px;
-    transition: all .1s;
-    visibility: unset;
-    /* color: white; */
-}
+    .sosconf-header__button-group:hover > .sosconf-header__gourp-drop-down {
+        display: inline;
+        background: white;
+        top: 100%;
+        left: -10%;
+        width: 100%;
+        height: auto;
+        border: none;
+        transition: all .5s;
+    }
 
-.sosconf-header__group-button-title:hover {
-    transition: all .2s;
-    /* border-bottom: 3px solid rgb(1, 191, 144); */
-}
+    .sosconf-header__button-group:hover .sosconf-header__group-button {
+        height: 40px;
+        transition: all .1s;
+        visibility: unset;
+        /* color: white; */
+    }
 
-.sosconf-header__group-button-title {
-    display: inline-block;
-    border: none;
-    background: transparent;
-    height: 100%;
-    width: 100%;
-    box-sizing: border-box;
-    font-size: 14px;
-}
+    .sosconf-header__group-button-title:hover {
+        transition: all .2s;
+        /* border-bottom: 3px solid rgb(1, 191, 144); */
+    }
 
-.sosconf-header__gourp-drop-down {
-    position: absolute;
-    top: 100%;
-    left: -10%;
-    height: 0;
-    /* border-radius: 5px; */
-    /* overflow: hidden; */
-}
+    .sosconf-header__group-button-title {
+        display: inline-block;
+        border: none;
+        background: transparent;
+        height: 100%;
+        width: 100%;
+        box-sizing: border-box;
+        font-size: 14px;
+    }
 
-.sosconf-header__group-button {
-    /* height: 40px; */
-    visibility: hidden;
-    height: 0;
-    width: 120%;
-    border: none;
-    color: black;
-    /* border-radius: 5px; */
-}
+    .sosconf-header__gourp-drop-down {
+        position: absolute;
+        top: 100%;
+        left: -10%;
+        height: 0;
+        /* border-radius: 5px; */
+        /* overflow: hidden; */
+    }
 
-.sosconf-header__group-button:hover {
-    background: rgb(6, 183, 133);
-    transition: all .5s;
-    color: white;
+    .sosconf-header__group-button {
+        /* height: 40px; */
+        visibility: hidden;
+        height: 0;
+        width: 120%;
+        border: none;
+        color: black;
+        /* border-radius: 5px; */
+    }
+
+    .sosconf-header__group-button:hover {
+        background: rgb(6, 183, 133);
+        transition: all .5s;
+        color: white;
+    }
+
+    .sosconf-header-pc {
+        height: 100%;
+    }
+
+} @media screen and (max-width: 1050px) {
+    .sosconf-header__wrap {
+        height: 100%;
+    }
+
+    .sosconf-header-pc {
+        display: none;
+    }
+
+    .sosconf-header-mobile {
+        display: flex;
+        height: 100%;
+        justify-content: center;
+        /* align-content: center; */
+        align-items:center;
+    }
+
+    .sosconf-header-mobile__logo {
+        height: 100%;
+        width: 20px;
+        height: 20px;
+        background: url(../images/Logo_nano.svg);
+    }
+
+    .sosconf-header__logo--name {
+        margin-left: 10px;
+    }
+
+    .sosconf-header__logo--name-number {
+        margin-left: 5px;
+        color: rgb(1, 191, 144);
+    }
 }

@@ -1,11 +1,11 @@
-/* @media screen and (min-width: 1050px) { */
+@media screen and (min-width: 1050px) {
+
     .sosconf-home__wrap {
         min-height: 800px;
     }
     
     .sosconf-home__title {
-        position: relative;
-        top: 20%;
+        margin-top: 20vh;
         text-align: center;
         color: white;
     }
@@ -69,16 +69,205 @@
         transition: all .3s;
         transform: scale(1.1)
     }
-    
-    .sosconf-home__announcement {
-        height: 800px;
+
+    .sosconf-home__news{
+        background: #040744;
+        margin-top: 350px;
+        padding: 50px 0;
+        width: 100%;
+        color: rgba(0,0,0,0.8);
+        font-weight: bold;
+        text-align: left;
     }
 
-    .sosconf-home__news {
-    
+    .sosconf-home__news--container{
+        width: 60%;
+        margin: auto;
+        position: relative;
+        background: white;
+        padding: 0 20px;
+    }
+
+    .sosconf-home__news--head{
+        position: absolute;
+        left: 20px;
+        top: 30px;
+        font-size: 14px;
+    }
+
+    .sosconf-home__news--more{
+        position: absolute;
+        right: 20px;
+        top: 30px;
+        font-size: 14px;
+        cursor: pointer;
+    }
+
+    .sosconf-home__news--span{
+        height: 5px;
+        width: 60px;
+        margin: 30px auto;
+        background-color: black;
+    }
+
+    .sosconf-home__news--block{
+        height: 50px;
     }
 
 
-/* } @media screen and (max-width: 1050px) { */
+    .sosconf-home__news--title{
+        margin-top: 3px;
+        color:black;
+        text-align: center;
+    }
 
-/* } */
+    .sosconf-home__news--image{
+        width: 100%;
+        height: 200px;
+        margin-top: 30px;
+        background: darkslategray;
+    }
+    .sosconf-home__news--summary{
+        margin-top: 10px;
+    }
+    .sosconf-home__news--hr{
+        height: 2px;
+        width: 100%;
+        margin: 30px 0;
+        background-color: rgba(0,0,0,0.8);
+    }
+    .sosconf-home__news--content{
+        font-size: 15px;
+        padding: 0 0 30px 0;
+        line-height: 30px;
+    }
+} @media screen and (max-width: 1050px) {
+
+    .sosconf-home__wrap {
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+
+    .sosconf-home__button {
+        border: none;
+        margin: 0 auto;
+        display: block;
+        background: white;
+        border-radius: 25px;
+        width: 200px;
+        font-size: 20px;
+        color: rgb(1, 191, 144);
+        height: 50px;
+    }
+    
+    .sosconf-home__button:hover {
+        transition: all .3s;
+        transform: scale(1.1)
+    }
+    
+    .sosconf-home__button--green {
+        margin: 0 auto;
+        border: none;
+        display: block;
+        background: rgb(1, 191, 144);
+        border-radius: 25px;
+        color: white;
+        font-size: 20px;
+        width: 200px;
+        height: 50px;
+        margin-top: 20px;
+    }
+    
+    .sosconf-home__button--green:hover {
+        transition: all .3s;
+        transform: scale(1.1)
+    }
+
+    .sosconf-home__news{
+        background: #040744;
+        /* margin-top: 350px; */
+        margin-top: 100px;
+        padding: 50px 0;
+        width: 100%;
+        color: rgba(0,0,0,0.8);
+        font-weight: bold;
+        text-align: left;
+    }
+
+    .sosconf-home__news--container{
+        width: 60%;
+        margin: auto;
+        position: relative;
+        background: white;
+        padding: 0 20px;
+    }
+
+    .sosconf-home__news--head{
+        position: absolute;
+        left: 20px;
+        top: 30px;
+        font-size: 14px;
+    }
+
+    .sosconf-home__news--more{
+        position: absolute;
+        right: 20px;
+        top: 30px;
+        font-size: 14px;
+        cursor: pointer;
+    }
+
+    .sosconf-home__news--span{
+        height: 5px;
+        width: 60px;
+        margin: 30px auto;
+        background-color: black;
+    }
+
+    .sosconf-home__news--block{
+        height: 50px;
+    }
+
+    .sosconf-home__news--title{
+        margin-top: 3px;
+        color:black;
+        text-align: center;
+    }
+
+    .sosconf-home__news--image{
+        width: 100%;
+        height: 200px;
+        margin-top: 30px;
+        background: darkslategray;
+    }
+
+    .sosconf-home__news--summary{
+        margin-top: 10px;
+    }
+
+    .sosconf-home__news--hr{
+        height: 2px;
+        width: 100%;
+        margin: 30px 0;
+        background-color: rgba(0,0,0,0.8);
+    }
+
+    .sosconf-home__news--content{
+        font-size: 15px;
+        padding: 0 0 30px 0;
+        line-height: 30px;
+    }
+
+    .sosconf-home__title {
+        position: relative;
+        top: 100px;
+        color: white;
+    }
+
+    .sosconf-home__position {
+        padding-top: 10%;
+        padding-bottom: 20%;
+        color: white;
+    }
+}
