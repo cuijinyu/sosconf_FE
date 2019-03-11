@@ -1,7 +1,12 @@
 import React, { Component } from 'react';
+import { withRouter } from 'react-router-dom';
+import PropTypes from 'prop-types';
 import '../themes/home.css';
 
 class Home extends Component { 
+  static contextTypes = {
+    router: PropTypes.object.isRequired,
+  }
   render() {
     return (
       <div className="sosconf-home__wrap">
@@ -15,7 +20,7 @@ class Home extends Component {
               <h2 className="sosconf-home__position--position">美国 南加州大学</h2>
             </div>
             <div className="sosconf-home__buttons">
-              <button className="sosconf-home__button">
+              <button className="sosconf-home__button" onClick={() => {this.props.history.push("/sponsor");}}>
                 提供赞助
               </button>
               <button className="sosconf-home__button--green">
